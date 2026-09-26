@@ -1,0 +1,17 @@
+# ---------------------------------------------------------------------------
+# Repository-wide ignores. Build outputs (target/, build/, .gradle/) are
+# handled by each service's own .gitignore, generated with the project.
+# ---------------------------------------------------------------------------
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local environment and secrets
+.env
+.env.*
